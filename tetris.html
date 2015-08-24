@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script language="JavaScript" src="common.js"> </script>
+		<script language="JavaScript" src="tetris.js"> </script>
+		<link rel="stylesheet" type="text/css" href="tetris.css">
+	</head>
+	<body>
+		<div id="overlay" class="hidden">Calculating...</div>
+		<div class="tetrisForm">
+				<div>Enter number of pieces of each type <input id="nbPieces" type="text"/><div>
+				<button onclick="tetris.solve()">Brute force</button>
+				<div id="solution"></div>
+		</div>
+	</body>
+</html>
